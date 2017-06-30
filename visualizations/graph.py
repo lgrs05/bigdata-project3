@@ -1,6 +1,9 @@
 import plotly.plotly as plty
 from plotly.graph_objs import *
+import plotly
 import datetime
+
+#plotly.tools.set_credentials_file(username="USERNAME", api_key="API_KEY")
 
 fi = open('keywords.txt', 'r')
 
